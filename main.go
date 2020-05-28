@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/akyoto/uuid"
 	"github.com/gofiber/fiber"
+	"github.com/google/uuid"
 )
 
 // Config ...
