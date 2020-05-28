@@ -1,3 +1,9 @@
+# CSRF
+
+![Test](https://github.com/gofiber/csrf/workflows/Test/badge.svg)
+![Security](https://github.com/gofiber/csrf/workflows/Security/badge.svg)
+![Linter](https://github.com/gofiber/csrf/workflows/Linter/badge.svg)
+
 ### Install
 ```
 go get -u github.com/gofiber/fiber
