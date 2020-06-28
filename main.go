@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber"
-	"github.com/google/uuid"
+	"github.com/gofiber/utils"
 )
 
 // Config ...
@@ -105,7 +105,7 @@ func New(config ...Config) func(*fiber.Ctx) {
 		key := c.Cookies(cfg.CookieName)
 		token := ""
 		if key == "" {
-			token = uuid.New().String()
+			token = utils.UUID()
 		} else {
 			token = key
 		}
